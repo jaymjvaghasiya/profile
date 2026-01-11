@@ -25,8 +25,7 @@ export default function Projects() {
       ],
       technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Tailwind CSS'],
       github: 'employee-app',
-      site: 'https://emp-frontend-9nwe.onrender.com/',
-      demo: { username: 'admin@gmail.com', password: 'Admin@1234' },
+      site: 'https://emp-frontend-9nwe.onrender.com/'
     },
     {
       title: 'Hospital Administration System',
@@ -96,14 +95,6 @@ export default function Projects() {
                     ))}
                   </ul>
                 </div>
-
-                {project.demo && (
-                  <div className="bg-gray-50 p-3 rounded-lg mb-4 text-sm">
-                    <p className="font-semibold text-gray-900 mb-1">Demo Credentials:</p>
-                    <p className="text-gray-800">Username: {project.demo.username}</p>
-                    <p className="text-gray-800">Password: {project.demo.password}</p>
-                  </div>
-                )}
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, i) => (
