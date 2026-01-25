@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
         <div className="mb-8 animate-fade-in">
           <div className="w-40 h-40 mx-auto mb-6 rounded-full bg-white/10 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center overflow-hidden shadow-2xl">
-            <div className="text-6xl font-bold text-white"> <img src="/profile/images/Jaykumar Vaghasiya.jpg" /> </div>
+            <div className="text-6xl font-bold text-white"> <img src="/profile/images/Jaykumar Vaghasiya.png" /> </div>
           </div>
         </div>
 
